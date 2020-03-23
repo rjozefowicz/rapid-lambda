@@ -52,8 +52,4 @@ public class FunctionBootstrap {
         return new FunctionBootstrap(requestHandler, eventClass, configuration);
     }
 
-    public static void main(String[] args) {
-        FunctionBootstrap.build((o, context) -> null, Object.class).bootstrap();
-    }
-
 }
