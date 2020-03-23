@@ -1,0 +1,329 @@
+[
+  {
+    "name": "com.sun.crypto.provider.SunJCE",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.sun.crypto.provider.HmacCore$HmacSHA256",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.sun.org.apache.xerces.internal.jaxp.datatype.DatatypeFactoryImpl",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name":"com.amazonaws.services.lambda.runtime.events.SNSEvent",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
+  {
+    "name":"com.amazonaws.services.lambda.runtime.events.SNSEvent$MessageAttribute",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
+  {
+    "name":"com.amazonaws.services.lambda.runtime.events.SNSEvent$SNS",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
+  {
+    "name":"com.amazonaws.services.lambda.runtime.events.SNSEvent$SNSRecord",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
+  {
+    "name":"com.amazonaws.services.lambda.runtime.events.APIGatewayProxyRequestEvent",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
+  {
+    "name":"com.amazonaws.services.lambda.runtime.events.APIGatewayProxyRequestEvent$RequestIdentity",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
+  {
+    "name":"com.amazonaws.services.lambda.runtime.events.APIGatewayProxyRequestEvent$ProxyRequestContext",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
+  {
+    "name":"com.amazonaws.services.lambda.runtime.events.APIGatewayProxyResponseEvent",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
+  {
+    "name":"com.amazonaws.services.lambda.runtime.events.APIGatewayV2ProxyRequestEvent",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
+  {
+    "name":"com.amazonaws.services.lambda.runtime.events.APIGatewayV2ProxyRequestEvent$RequestContext",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
+  {
+    "name":"com.amazonaws.services.lambda.runtime.events.APIGatewayV2ProxyRequestEvent$RequestIdentity",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
+  {
+    "name":"com.amazonaws.services.lambda.runtime.events.APIGatewayV2ProxyResponseEvent",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
+  {
+    "name":"com.amazonaws.services.lambda.runtime.events.DynamodbEvent",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
+  {
+    "name":"com.amazonaws.services.lambda.runtime.events.DynamodbEvent$DynamodbStreamRecord",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
+  {
+    "name":"com.amazonaws.services.lambda.runtime.events.S3Event",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
+  {
+    "name":"com.amazonaws.services.lambda.runtime.events.SQSEvent",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
+  {
+    "name":"com.amazonaws.services.lambda.runtime.events.SQSEvent$MessageAttribute",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
+  {
+    "name":"com.amazonaws.services.lambda.runtime.events.SQSEvent$SQSMessage",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
+  {
+    "name":"com.fasterxml.jackson.core.ObjectCodec",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"com.fasterxml.jackson.core.TreeCodec",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"com.fasterxml.jackson.databind.ObjectMapper",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"com.fasterxml.jackson.databind.ext.Java7HandlersImpl",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"java.io.Serializable",
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"java.lang.Cloneable",
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"java.lang.Comparable",
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"org.joda.time.Chronology",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
+  {
+    "name":"org.joda.time.DateTime",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
+  {
+    "name":"org.joda.time.ReadableDateTime",
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"org.joda.time.ReadableInstant",
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"org.joda.time.base.AbstractDateTime",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"org.joda.time.base.AbstractInstant",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"org.joda.time.base.BaseDateTime",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"com.google.common.collect.ImmutableMapEntry[]"
+  },
+  {
+    "name":"com.google.common.util.concurrent.AbstractFuture",
+    "fields":[
+      {"name":"listeners", "allowUnsafeAccess":true},
+      {"name":"value", "allowUnsafeAccess":true},
+      {"name":"waiters", "allowUnsafeAccess":true}
+    ]
+  },
+  {
+    "name":"com.google.common.util.concurrent.AbstractFuture$Waiter",
+    "fields":[
+      {"name":"next", "allowUnsafeAccess":true},
+      {"name":"thread", "allowUnsafeAccess":true}
+    ]
+  },
+  {
+    "name":"com.google.inject.AbstractModule",
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"com.google.inject.name.Named",
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"com.google.inject.internal.InjectorShell$RootModule",
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"com.google.inject.internal.cglib.core.$MethodWrapper$MethodWrapperKey",
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"com.google.inject.spi.ProvisionListener[]"
+  },
+  {
+    "name":"com.google.inject.util.Modules$EmptyModule",
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"dev.jozefowicz.lambda.graalvm.function.configuration.GlobalModule",
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"dev.jozefowicz.lambda.graalvm.runtime.GraalVMRuntime",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"java.lang.Boolean",
+    "methods":[{"name":"parseBoolean","parameterTypes":["java.lang.String"] }]
+  },
+  {
+    "name":"java.lang.Byte",
+    "methods":[{"name":"parseByte","parameterTypes":["java.lang.String"] }]
+  },
+  {
+    "name":"java.lang.Class[]"
+  },
+  {
+    "name":"java.lang.ClassLoader",
+    "methods":[{"name":"defineClass","parameterTypes":["java.lang.String","byte[]","int","int","java.security.ProtectionDomain"] }]
+  },
+  {
+    "name":"java.lang.Double",
+    "methods":[{"name":"parseDouble","parameterTypes":["java.lang.String"] }]
+  },
+  {
+    "name":"java.lang.Float",
+    "methods":[{"name":"parseFloat","parameterTypes":["java.lang.String"] }]
+  },
+  {
+    "name":"java.lang.Integer",
+    "methods":[{"name":"parseInt","parameterTypes":["java.lang.String"] }]
+  },
+  {
+    "name":"java.lang.Long",
+    "methods":[{"name":"parseLong","parameterTypes":["java.lang.String"] }]
+  },
+  {
+    "name":"java.lang.Object",
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"java.lang.Object[]"
+  },
+  {
+    "name":"java.lang.Short",
+    "methods":[{"name":"parseShort","parameterTypes":["java.lang.String"] }]
+  },
+  {
+    "name":"org.aopalliance.intercept.MethodInterceptor[]"
+  },
+  {
+    "name":"sun.misc.Unsafe",
+    "allDeclaredFields":true
+  },
+  {
+    "name":"javax.inject.Named",
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"java.net.http.HttpClient",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"jdk.internal.net.http.HttpClientFacade",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true
+  }
+]
