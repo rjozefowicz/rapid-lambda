@@ -2,11 +2,11 @@ package dev.jozefowicz.lambda.graalvm.function.configuration;
 
 import com.google.inject.Module;
 
-public class Configuration {
+public class FunctionConfiguration {
 
     private final Module module;
 
-    private Configuration(final Module module) {
+    private FunctionConfiguration(final Module module) {
         this.module = module;
     }
 
@@ -14,7 +14,7 @@ public class Configuration {
         return module;
     }
 
-    public static final Configuration newConfiguration(final Module module) {
-        return new Configuration(module);
+    public static final FunctionConfiguration newConfiguration(final Module module) {
+        return new FunctionConfiguration(module);
     }
 }

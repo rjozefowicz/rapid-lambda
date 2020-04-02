@@ -75,7 +75,7 @@ public class GraalVMRuntime {
 
     private void postError(final String invocationID, String message) {
         try {
-            final var invocationResultEndpoint = "http://" + AWS_LAMBDA_RUNTIME_API + "/2018-06-01/runtime/invocation/" + invocationID + "/response";
+            final var invocationResultEndpoint = "http://" + AWS_LAMBDA_RUNTIME_API + "/2018-06-01/runtime/invocation/" + invocationID + "/error";
             final HttpRequest invocationResultRequest = HttpRequest
                     .newBuilder()
                     .uri(new URI(invocationResultEndpoint))

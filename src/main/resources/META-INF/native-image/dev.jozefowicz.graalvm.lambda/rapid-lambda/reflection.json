@@ -37,111 +37,297 @@
   },
   {
     "name":"com.amazonaws.services.lambda.runtime.events.SNSEvent",
-    "allDeclaredFields":true,
-    "allDeclaredMethods":true,
-    "allDeclaredConstructors":true
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ],
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredClasses" : true,
+    "allPublicClasses" : true
   },
   {
     "name":"com.amazonaws.services.lambda.runtime.events.SNSEvent$MessageAttribute",
-    "allDeclaredFields":true,
-    "allDeclaredMethods":true,
-    "allDeclaredConstructors":true
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ],
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredClasses" : true,
+    "allPublicClasses" : true
   },
   {
     "name":"com.amazonaws.services.lambda.runtime.events.SNSEvent$SNS",
-    "allDeclaredFields":true,
-    "allDeclaredMethods":true,
-    "allDeclaredConstructors":true
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ],
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredClasses" : true,
+    "allPublicClasses" : true
   },
   {
     "name":"com.amazonaws.services.lambda.runtime.events.SNSEvent$SNSRecord",
-    "allDeclaredFields":true,
-    "allDeclaredMethods":true,
-    "allDeclaredConstructors":true
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ],
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredClasses" : true,
+    "allPublicClasses" : true
   },
   {
     "name":"com.amazonaws.services.lambda.runtime.events.APIGatewayProxyRequestEvent",
-    "allDeclaredFields":true,
-    "allDeclaredMethods":true,
-    "allDeclaredConstructors":true
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ],
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredClasses" : true,
+    "allPublicClasses" : true
   },
   {
     "name":"com.amazonaws.services.lambda.runtime.events.APIGatewayProxyRequestEvent$RequestIdentity",
-    "allDeclaredFields":true,
-    "allDeclaredMethods":true,
-    "allDeclaredConstructors":true
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ],
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredClasses" : true,
+    "allPublicClasses" : true
   },
   {
     "name":"com.amazonaws.services.lambda.runtime.events.APIGatewayProxyRequestEvent$ProxyRequestContext",
-    "allDeclaredFields":true,
-    "allDeclaredMethods":true,
-    "allDeclaredConstructors":true
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ],
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredClasses" : true,
+    "allPublicClasses" : true
   },
   {
     "name":"com.amazonaws.services.lambda.runtime.events.APIGatewayProxyResponseEvent",
-    "allDeclaredFields":true,
-    "allDeclaredMethods":true,
-    "allDeclaredConstructors":true
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ],
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredClasses" : true,
+    "allPublicClasses" : true
   },
   {
     "name":"com.amazonaws.services.lambda.runtime.events.APIGatewayV2ProxyRequestEvent",
-    "allDeclaredFields":true,
-    "allDeclaredMethods":true,
-    "allDeclaredConstructors":true
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ],
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredClasses" : true,
+    "allPublicClasses" : true
   },
   {
     "name":"com.amazonaws.services.lambda.runtime.events.APIGatewayV2ProxyRequestEvent$RequestContext",
-    "allDeclaredFields":true,
-    "allDeclaredMethods":true,
-    "allDeclaredConstructors":true
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ],
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredClasses" : true,
+    "allPublicClasses" : true
   },
   {
     "name":"com.amazonaws.services.lambda.runtime.events.APIGatewayV2ProxyRequestEvent$RequestIdentity",
-    "allDeclaredFields":true,
-    "allDeclaredMethods":true,
-    "allDeclaredConstructors":true
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ],
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredClasses" : true,
+    "allPublicClasses" : true
   },
   {
     "name":"com.amazonaws.services.lambda.runtime.events.APIGatewayV2ProxyResponseEvent",
-    "allDeclaredFields":true,
-    "allDeclaredMethods":true,
-    "allDeclaredConstructors":true
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ],
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredClasses" : true,
+    "allPublicClasses" : true
   },
   {
     "name":"com.amazonaws.services.lambda.runtime.events.DynamodbEvent",
-    "allDeclaredFields":true,
-    "allDeclaredMethods":true,
-    "allDeclaredConstructors":true
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ],
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredClasses" : true,
+    "allPublicClasses" : true
   },
   {
     "name":"com.amazonaws.services.lambda.runtime.events.DynamodbEvent$DynamodbStreamRecord",
-    "allDeclaredFields":true,
-    "allDeclaredMethods":true,
-    "allDeclaredConstructors":true
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ],
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredClasses" : true,
+    "allPublicClasses" : true
   },
   {
     "name":"com.amazonaws.services.lambda.runtime.events.S3Event",
-    "allDeclaredFields":true,
-    "allDeclaredMethods":true,
-    "allDeclaredConstructors":true
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ],
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredClasses" : true,
+    "allPublicClasses" : true
   },
   {
     "name":"com.amazonaws.services.lambda.runtime.events.SQSEvent",
-    "allDeclaredFields":true,
-    "allDeclaredMethods":true,
-    "allDeclaredConstructors":true
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ],
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredClasses" : true,
+    "allPublicClasses" : true
   },
   {
     "name":"com.amazonaws.services.lambda.runtime.events.SQSEvent$MessageAttribute",
-    "allDeclaredFields":true,
-    "allDeclaredMethods":true,
-    "allDeclaredConstructors":true
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ],
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredClasses" : true,
+    "allPublicClasses" : true
   },
   {
     "name":"com.amazonaws.services.lambda.runtime.events.SQSEvent$SQSMessage",
-    "allDeclaredFields":true,
-    "allDeclaredMethods":true,
-    "allDeclaredConstructors":true
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ],
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredClasses" : true,
+    "allPublicClasses" : true
+  },
+  {
+    "name":"boolean[]"
+  },
+  {
+    "name":"byte[]"
+  },
+  {
+    "name":"char[]"
+  },
+  {
+    "name":"double[]"
+  },
+  {
+    "name":"float[]"
+  },
+  {
+    "name":"int[]"
+  },
+  {
+    "name":"long[]"
+  },
+  {
+    "name":"short[]"
   },
   {
     "name":"com.fasterxml.jackson.core.ObjectCodec",
@@ -255,6 +441,41 @@
     "allDeclaredMethods":true
   },
   {
+    "name":"com.google.inject.internal.Annotations",
+    "methods":[{"name":"determineWhetherToQuote","parameterTypes":[] }]
+  },
+  {
+    "name":"com.google.inject.internal.Element",
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"com.google.inject.internal.InjectorShell$RootModule",
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"com.google.inject.internal.InternalProviderInstanceBindingImpl$Factory",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"com.google.inject.internal.RealMultibinder",
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"com.google.inject.internal.RealMultibinder$RealMultibinderCollectionOfProvidersProvider",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"com.google.inject.internal.RealMultibinder$RealMultibinderProvider",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"java.lang.Module",
+    "methods":[{"name":"isNamed","parameterTypes":[] }]
+  },
+  {
     "name":"dev.jozefowicz.lambda.graalvm.function.configuration.GlobalModule",
     "allDeclaredMethods":true
   },
@@ -325,5 +546,163 @@
     "name":"jdk.internal.net.http.HttpClientFacade",
     "allDeclaredFields":true,
     "allDeclaredMethods":true
+  },
+  {
+    "name":"org.joda.time.ReadableInstant"
+  },
+  {
+    "name":"software.amazon.awssdk.services.dynamodb.DefaultDynamoDbClient",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"software.amazon.awssdk.services.dynamodb.DefaultDynamoDbClientBuilder",
+    "methods":[{"name":"httpClientBuilder","parameterTypes":["software.amazon.awssdk.http.SdkHttpClient$Builder"] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.dynamodb.DynamoDbClient",
+    "methods":[{"name":"builder","parameterTypes":[] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.ec2.DefaultEc2Client",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"software.amazon.awssdk.services.ec2.DefaultEc2ClientBuilder",
+    "methods":[{"name":"httpClientBuilder","parameterTypes":["software.amazon.awssdk.http.SdkHttpClient$Builder"] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.ec2.Ec2Client",
+    "methods":[{"name":"builder","parameterTypes":[] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.ec2.transform.internal.GeneratePreSignUrlInterceptor",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.ec2.transform.internal.TimestampFormatInterceptor",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.lambda.DefaultLambdaClient",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"software.amazon.awssdk.services.lambda.DefaultLambdaClientBuilder",
+    "methods":[{"name":"httpClientBuilder","parameterTypes":["software.amazon.awssdk.http.SdkHttpClient$Builder"] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.lambda.LambdaClient",
+    "methods":[{"name":"builder","parameterTypes":[] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.s3.DefaultS3Client",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"software.amazon.awssdk.services.s3.DefaultS3ClientBuilder",
+    "methods":[{"name":"httpClientBuilder","parameterTypes":["software.amazon.awssdk.http.SdkHttpClient$Builder"] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.s3.S3Client",
+    "methods":[{"name":"builder","parameterTypes":[] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.s3.internal.handlers.AddContentMd5HeaderInterceptor",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.s3.internal.handlers.AsyncChecksumValidationInterceptor",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.s3.internal.handlers.CreateBucketInterceptor",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.s3.internal.handlers.CreateMultipartUploadRequestInterceptor",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.s3.internal.handlers.DecodeUrlEncodedResponseInterceptor",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.s3.internal.handlers.DisableDoubleUrlEncodingInterceptor",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.s3.internal.handlers.EnableChunkedEncodingInterceptor",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.s3.internal.handlers.EnableTrailingChecksumInterceptor",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.s3.internal.handlers.EndpointAddressInterceptor",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.s3.internal.handlers.ExceptionTranslationInterceptor",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.s3.internal.handlers.GetBucketPolicyInterceptor",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.s3.internal.handlers.PutObjectInterceptor",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.s3.internal.handlers.SyncChecksumValidationInterceptor",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.sns.DefaultSnsClient",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"software.amazon.awssdk.services.sns.DefaultSnsClientBuilder",
+    "methods":[{"name":"httpClientBuilder","parameterTypes":["software.amazon.awssdk.http.SdkHttpClient$Builder"] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.sns.SnsClient",
+    "methods":[{"name":"builder","parameterTypes":[] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.sqs.DefaultSqsClient",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"software.amazon.awssdk.services.sqs.DefaultSqsClientBuilder",
+    "methods":[{"name":"httpClientBuilder","parameterTypes":["software.amazon.awssdk.http.SdkHttpClient$Builder"] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.sqs.SqsClient",
+    "methods":[{"name":"builder","parameterTypes":[] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.sqs.internal.MessageMD5ChecksumInterceptor",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.ssm.DefaultSsmClient",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"software.amazon.awssdk.services.ssm.DefaultSsmClientBuilder",
+    "methods":[{"name":"httpClientBuilder","parameterTypes":["software.amazon.awssdk.http.SdkHttpClient$Builder"] }]
+  },
+  {
+    "name":"software.amazon.awssdk.services.ssm.SsmClient",
+    "methods":[{"name":"builder","parameterTypes":[] }]
   }
 ]

@@ -1,0 +1,41 @@
+[
+  {
+    "name": "com.example.Measurement",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ],
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredClasses" : true,
+    "allPublicClasses" : true
+  },
+  {
+    "name":"com.example.Configuration",
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"com.example.DynamoDbMeasurementRepository",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"com.example.SnsNotificationService",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"com.example.LambdaNotificationService",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true
+  },
+  {
+    "name":"com.example.MeasurementHandler",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true
+  }
+]

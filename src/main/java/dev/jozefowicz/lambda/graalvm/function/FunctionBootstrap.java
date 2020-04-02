@@ -4,7 +4,7 @@ import com.amazonaws.services.lambda.runtime.RequestHandler;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 import com.google.inject.Module;
-import dev.jozefowicz.lambda.graalvm.function.configuration.Configuration;
+import dev.jozefowicz.lambda.graalvm.function.configuration.FunctionConfiguration;
 import dev.jozefowicz.lambda.graalvm.function.configuration.GlobalModule;
 import dev.jozefowicz.lambda.graalvm.runtime.GraalVMRuntime;
 
@@ -18,12 +18,12 @@ public class FunctionBootstrap {
 
     private RequestHandler requestHandler;
     private Class<?> eventClass;
-    private Configuration configuration;
+    private FunctionConfiguration functionConfiguration;
 
-    private FunctionBootstrap(RequestHandler requestHandler, Class<?> eventClass, Configuration configuration) {
+    private FunctionBootstrap(RequestHandler requestHandler, Class<?> eventClass, FunctionConfiguration functionConfiguration) {
         this.requestHandler = requestHandler;
         this.eventClass = eventClass;
-        this.configuration = configuration;
+        this.functionConfiguration = functionConfiguration;
     }
 
     public void bootstrap() {
@@ -32,15 +32,16 @@ public class FunctionBootstrap {
         }
         final List<Module> modules = new ArrayList<>();
         modules.add(new GlobalModule());
-        if (nonNull(configuration)) {
-            if (nonNull(configuration.getModule())) {
-                modules.add(configuration.getModule());
+        if (nonNull(functionConfiguration)) {
+            if (nonNull(functionConfiguration.getModule())) {
+                modules.add(functionConfiguration.getModule());
             }
         }
 
         final Injector injector = Guice.createInjector(modules);
         final GraalVMRuntime graalVMRuntime = new GraalVMRuntime(requestHandler, eventClass);
         injector.injectMembers(graalVMRuntime);
+        injector.injectMembers(requestHandler);
         graalVMRuntime.execute();
     }
 
@@ -48,8 +49,8 @@ public class FunctionBootstrap {
         return new FunctionBootstrap(requestHandler, eventClass, null);
     }
 
-    public static final FunctionBootstrap build(final RequestHandler requestHandler, final Class<?> eventClass, final Configuration configuration) {
-        return new FunctionBootstrap(requestHandler, eventClass, configuration);
+    public static final FunctionBootstrap build(final RequestHandler requestHandler, final Class<?> eventClass, final FunctionConfiguration functionConfiguration) {
+        return new FunctionBootstrap(requestHandler, eventClass, functionConfiguration);
     }
 
 }
