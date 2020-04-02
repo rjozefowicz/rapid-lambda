@@ -199,4 +199,6 @@ public class LambdaRuntimeSimulator {
 }
 ```
 
-This code exposes `/events` endpoint that accepts next Lambda event.
+This code exposes HTTP POST `/events` endpoint that accepts next Lambda event. 
+
+Custom runtimes expects `AWS_LAMBDA_RUNTIME_API` environment variable to point to Lambda HTTP API. For above example it should point to `localhost:7000`
