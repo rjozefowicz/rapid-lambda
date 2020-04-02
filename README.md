@@ -45,7 +45,7 @@ Supported clients
 * SSM
 * EC2
 
-In order to start using AWS Clients you need just to add maven dependency 
+In order to start using AWS Clients you just need to add maven dependency 
 
 ```xml
 <dependency>
@@ -55,7 +55,7 @@ In order to start using AWS Clients you need just to add maven dependency
 </dependency>
 ```
 
-and the just inject client in your service classes.
+and then inject client in your service class.
 
 ```java
 @Inject
@@ -66,13 +66,13 @@ private DynamoDbClient dynamoDbClient;
 
 rapid-lambda partially supports JSR-330 Dependency Injection provided by Google implementation named Guice.
 
-#### Available to inject
+#### Available to inject without additional configuration
 
 * HttpClient from Java 11
 * ObjectMapper
 * AWS SDK clients (if added as dependency)
 
-#### Configuration:
+#### Custom configuration:
 
 Create binding configuration
 
@@ -81,16 +81,16 @@ public class GlobalModule extends AbstractModule {
 
     @Override
     protected void configure() {
-        bind(HttpClient.class).toInstance(HttpClient.newHttpClient());
+        bind(Service.class).toInstance(new ServiceImpl());
     }
 }
 ```
 
-then HttpClient can be injected via @Inject annotation
+then Service can be injected via @Inject annotation
 
 ```java
 @Inject
-private HttpClient httpClient;
+private Service service;
 ```
 
 Injecting multiple instances of single interface:
