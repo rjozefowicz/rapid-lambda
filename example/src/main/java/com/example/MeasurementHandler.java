@@ -2,14 +2,14 @@ package com.example;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
-import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyRequestEvent;
+import com.amazonaws.services.lambda.runtime.events.APIGatewayV2ProxyRequestEvent;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import javax.inject.Inject;
 import java.util.Set;
 
-public class MeasurementHandler implements RequestHandler<APIGatewayProxyRequestEvent, Void> {
+public class MeasurementHandler implements RequestHandler<APIGatewayV2ProxyRequestEvent, Void> {
 
     @Inject
     private ObjectMapper objectMapper;
@@ -20,7 +20,7 @@ public class MeasurementHandler implements RequestHandler<APIGatewayProxyRequest
     @Inject
     private Set<NotificationService> notificationServices;
 
-    public Void handleRequest(APIGatewayProxyRequestEvent request, Context context) {
+    public Void handleRequest(APIGatewayV2ProxyRequestEvent request, Context context) {
         try {
             final Measurement measurement = objectMapper.readValue(request.getBody(), Measurement.class);
             measurementRepository.persist(measurement);

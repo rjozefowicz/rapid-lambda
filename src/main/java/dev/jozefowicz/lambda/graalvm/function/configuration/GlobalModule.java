@@ -1,6 +1,7 @@
 package dev.jozefowicz.lambda.graalvm.function.configuration;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.module.paramnames.ParameterNamesModule;
 import com.google.inject.AbstractModule;
@@ -43,7 +44,7 @@ public class GlobalModule extends AbstractModule {
     private ObjectMapper objectMapper() {
         final var objectMapper = new ObjectMapper();
         objectMapper.registerModule(new ParameterNamesModule(JsonCreator.Mode.PROPERTIES));
-        return objectMapper;
+        return objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
     }
 
     private Optional<Class> bindIfAvailable(String className) {
