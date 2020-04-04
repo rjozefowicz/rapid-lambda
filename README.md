@@ -19,7 +19,7 @@ public class Function {
 }
 ```
 
-Please see `example` directory for more details. 
+Please see `example` directory for more details. It contains Function code that consumes measurement that will be persisted in DynamoDB and passed to another Lambda function and sent to SNS topic.
 
 `native-image` requires reflection configuration for your classes that will be deserialized via ObjectMapper or injected via JSR-330 annotations.
 
@@ -33,6 +33,45 @@ $JAVA_HOME/bin/native-image -H:ReflectionConfigurationFiles=reflection-config.js
 ### Deployment on AWS Lambda
 
 AWS Lambda custom runtime uses Amazon Linux 2 so in order to build native binary it has to be done on that OS e.g. on EC2 instance.
+
+Running `example` on AWS Lambda: 
+1. Create EC2 instance with Amazon Linux 2 and AWS CLI installed and configured
+2. Create Lambda function with Custom runtime selected and with the following environment variables set:
+* `TABLE_NAME` that points to DynamoDB table with serialNumber as Primary Key 
+* `NOTIFICATION_FUNCTION_NAME` function to be invoked by `example` function
+* `TOPIC_ARN` SNS topic that listens for measurements
+
+Adjust Lambda function settings (timeout and memory) to your needs.
+
+3. Execute the following commands on your EC2 instance
+```shell script
+// Preparing env
+$ wget https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.0.0/graalvm-ce-java11-linux-amd64-20.0.0.tar.gz
+$ tar xvzf graalvm-ce-java11-linux-amd64-20.0.0.tar.gz
+$ cd graalvm-ce-java11-20.0.0/bin/
+$ ./gu install native-image
+$ export JAVA_HOME=/home/ec2-user/graalvm-ce-java11-20.0.0
+
+// building example function
+$ git clone https://github.com/rjozefowicz/rapid-lambda.git
+$ cd rapid-lambda
+$ mvn install
+$ cd example
+$ mvn package
+$ $JAVA_HOME/bin/native-image -H:ReflectionConfigurationFiles=reflection-config.json -jar target/native-function-jar-with-dependencies.jar native-function.o
+
+// building zip archive - collect all mandatory artifacts in single directory and zip them
+$ mkdir build-artifacts
+$ cp $JAVA_HOME/lib/libsunec.so build-artifacts/libsunec.so
+$ cp $JAVA_HOME/lib/security/cacerts build-artifacts/cacerts
+$ mv native-function.o build-artifacts/native-function.o
+$ chmod +x build-artifacts/native-function.o
+$ cp ../bootstrap build-artifacts/bootstrap
+$ zip -r function .
+
+// upload your binary to AWS Lambda function
+$ aws lambda update-function-code --function-name YOUR_FUNCTION_NAME --zip-file fileb://build-artifacts/function.zip
+```
 
 ### AWS SDK V2
 
@@ -199,4 +238,6 @@ public class LambdaRuntimeSimulator {
 }
 ```
 
-This code exposes `/events` endpoint that accepts next Lambda event.
+This code exposes HTTP POST `/events` endpoint that accepts next Lambda event. 
+
+Custom runtimes expects `AWS_LAMBDA_RUNTIME_API` environment variable to point to Lambda HTTP API. For above example it should point to `localhost:7000`
